@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "scentcraft",
+	"version": "${version}",
+	"name": "ScentCraft",
+	"description": "For ScentHarmony very private server eiei.",
+	"authors": [
+		"Tinnaphat Somsang <tinvv@outlook.co.th>"
+	],
+	"contact": {
+		"homepage": "https://tin.otternoon.com/",
+		"sources": "https://github.com/tinarskii/scentcraft"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/scentcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.otternoon.tin.ScentCraft",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.otternoon.tin.ScentCraftClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}

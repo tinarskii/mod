@@ -1,10 +1,10 @@
-Prerequisites: [ManaoBot v3.2.0](https://manaobot.netlify.app)
+Prerequisites: [ManaoBot v3.2.0](https://manaobot.netlify.app), [Fabric Loader](https://fabricmc.net/use/server/), [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 Usage:
 
 1. Set up ManaoBot v3.2.0 on your server or local machine by following the installation instructions on the [ManaoBot website](https://manaobot.netlify.app/th/guides/00-getting-started/). 
 2. Download the Mod from [Release Page](https://github.com/tinarskii/mod/releases).
-3. Put the jar file into the "mods" folder of Minecraft Server.
+3. Put the jar file into the "mods" folder of Minecraft Server. **Do NOT forget to put the fabric-api into "mods" folder as well.**
 4. Enable "ManaoBot Discord" by reading [this guide](https://manaobot.netlify.app/th/discord/00-getting-started/)
 5. Start ManaoBot and Minecraft Server.
 
